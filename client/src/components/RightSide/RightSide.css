@@ -1,0 +1,43 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-icon {
+    margin-right: 10px;
+}
+.logout-btn-right {
+height: 36px;
+}
+
+.home-link {
+    margin-right: 10px;
+}
+
+.navIcons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%) brightness(50%) sepia(100%) hue-rotate(180deg);
+}
+
+.navIcons>a>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.navIcons>img:hover{
+    cursor: pointer;
+}
+
+.r-button{
+    height:3rem;
+    width: 80%;
+    align-self: center;
+}
